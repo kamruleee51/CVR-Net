@@ -5,7 +5,7 @@ The novel Coronavirus Disease 2019 (COVID-19), originated in Wuhan (China), is a
 <center>
     
 |  Datasets |    Task types   |         Class Categories         |     No. of images    |
-|:---------:|:---------------:|:--------------------------------:|:--------------------:|
+|---------|:---------------|--------------------------------|--------------------|
 |           |                 |           Normal (NOR)           |         5,856        |
 | Dataset-1 | Task-1: 2-class |    Novel Corona Positive (NCP)   |          500         |
 |           |                 |           Normal (NOR)           |         1,583        |
