@@ -9,6 +9,8 @@ As COVID is a new pandemic, a huge number of positive coronavirus images are not
 
 
 
+The more details of the proposed framework can be found here: <br>
+https://arxiv.org/abs/2007.11993
 
 
 All the results reported in the literature were produced using the following version Python and Python API:
@@ -23,8 +25,6 @@ All the results reported in the literature were produced using the following ver
     <li>keras 2.3.1</li>
    
 </ul>
-
-The more details of the proposed framework will be uploaded soon-------
 
 
 **Written by**<br>
