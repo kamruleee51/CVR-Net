@@ -7,6 +7,33 @@ To recognize the Covid-19 accurately, we proposed an end-to-end multi-scale-mult
 
 As COVID is a new pandemic, a huge number of positive coronavirus images are not available yet. We have collected images from different open sources, such as such as Kaggle, GitHub, and MICCAI grand challenge. The distribution of all the three datasets is presented in the following table. With the limited datasets, we apply geometry-based image augmentations and transfer learning on ImageNet. 
 
+| Different studies  | Class categories | Number of Images | Source References         | Modality |
+|--------------------|------------------|------------------|---------------------------|----------|
+|                    | NOR              | 5,856            | CXRI                      |          |
+| CXR-Single-CL2     | NCP              | 500              | CIDC                      | X-ray    |
+|                    | NOR              | 7,864            | CXRI, ChestX-ray8         |          |
+| CXR-Multiple-CL2   | NCP              | 4,015            | CCXRI, CIDC, BIMCV        | X-ray    |
+|                    | NOR (Train/Test) |  6,958/1,227     | CheXpert+CXRI/ChestX-ray8 |          |
+| CXR-Individual-CL2 | NCP (Train/Test) |  3,515/500       | CCXRI +BIMCV/CIDC         | X-ray    |
+|                    | NOR              | 1,227            | SCoV                      |          |
+| CT-Single-CL2-I    | NCP              | 1,252            | SCoV                      | CT       |
+|                    | NOR              | 397              | MGC                       |          |
+| CT-Single-CL2-II   | NCP              | 349              | MGC                       | CT       |
+|                    | NOR              | 7,864            | SCoV, CCII, MGC           |          |
+| CT-Multiple-CL2    | NCP              | 4,015            | SCoV, CCII, MGC           | CT       |
+|                    | NOR (Train/Test) | 16,616/1,227     | MGC+CCII+iCTCF/SCoV       |          |
+| CT-Individual-CL2  | NCP (Train/Test) | 6,427/1,252      | MGC+CCII+iCTCF/SCoV       | CT       |
+|                    | NOR              | 1,583            | CXRI                      |          |
+|                    | CPN              | 4,273            | CXRI                      |          |
+| CXR-Single-CL3     | NCP              | 500              | CXRI                      | X-ray    |
+|                    | NOR              | 3,591            | CXRI, ChestX-ray8         |          |
+|                    | CPN              | 4,595            | CXRI, ChestX-ray8         |          |
+| CXR-Multiple-CL3   | NCP              | 4,015            | CCXRI, CIDC, BIMCV        | X-ray    |
+|                    | NOR              | 3,591            | CXRI , ChestX-ray8        |          |
+|                    | CPB              | 2,780            | CXRI                      |          |
+|                    | CPV              | 1,493            | CXRI                      |          |
+| CXR-Multiple-CL4   | NCP              | 4,015            | CXRI, CIDC, BIMCV         | X-ray    |
+
 
 
 The more details of the proposed framework can be found here: <br>
