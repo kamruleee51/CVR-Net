@@ -56,9 +56,7 @@ All the results reported in the literature were produced using the following ver
 
 **Written by**<br>
 **Md. Kamrul Hasan**  <br>
-Erasmus Scholar [2017-2019] <br>
 M.Sc. in Medical Imaging and Applications (MAIA)(https://maiamaster.udg.edu/ ) <br>
-& <br>
 Assistant Professor <br>
 Department of Electrical and Electronic Engineering (EEE) <br>
 Khulna University of Engineering & Technology (KUET) <br>
@@ -66,9 +64,10 @@ Khulna-9203, Bangladesh <br>
 E-mail: kamruleeekuet@gmail.com or m.k.hasan@eee.kuet.ac.bd<br>
 G.Scholar: https://scholar.google.com/citations?user=36WXELIAAAAJ&hl=en
 
+and <br>
 
 **Md. Ashraful Alam**  <br>
-Undergraduate student
+Undergraduate student <br>
 Department of Electrical and Electronic Engineering (EEE) <br>
 Khulna University of Engineering & Technology (KUET) <br>
 Khulna-9203, Bangladesh <br>
