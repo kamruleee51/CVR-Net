@@ -7,32 +7,32 @@ To recognize the Covid-19 accurately, we proposed an end-to-end multi-scale-mult
 
 As COVID is a new pandemic, a huge number of positive coronavirus images are not available yet. We have collected images from different open sources, such as such as Kaggle, GitHub, and MICCAI grand challenge. The distribution of all the three datasets is presented in the following table. With the limited datasets, we apply geometry-based image augmentations and transfer learning on ImageNet. 
 
-| Different studies  | Class categories | Number of Images | Source References         | Modality |
-|--------------------|------------------|------------------|---------------------------|----------|
-|                    | NOR              | 5,856            | CXRI                      |          |
-| CXR-Single-CL2     | NCP              | 500              | CIDC                      | X-ray    |
-|                    | NOR              | 7,864            | CXRI, ChestX-ray8         |          |
-| CXR-Multiple-CL2   | NCP              | 4,015            | CCXRI, CIDC, BIMCV        | X-ray    |
-|                    | NOR (Train/Test) |  6,958/1,227     | CheXpert+CXRI/ChestX-ray8 |          |
-| CXR-Individual-CL2 | NCP (Train/Test) |  3,515/500       | CCXRI +BIMCV/CIDC         | X-ray    |
-|                    | NOR              | 1,227            | SCoV                      |          |
-| CT-Single-CL2-I    | NCP              | 1,252            | SCoV                      | CT       |
-|                    | NOR              | 397              | MGC                       |          |
-| CT-Single-CL2-II   | NCP              | 349              | MGC                       | CT       |
-|                    | NOR              | 7,864            | SCoV, CCII, MGC           |          |
-| CT-Multiple-CL2    | NCP              | 4,015            | SCoV, CCII, MGC           | CT       |
-|                    | NOR (Train/Test) | 16,616/1,227     | MGC+CCII+iCTCF/SCoV       |          |
-| CT-Individual-CL2  | NCP (Train/Test) | 6,427/1,252      | MGC+CCII+iCTCF/SCoV       | CT       |
-|                    | NOR              | 1,583            | CXRI                      |          |
-|                    | CPN              | 4,273            | CXRI                      |          |
-| CXR-Single-CL3     | NCP              | 500              | CXRI                      | X-ray    |
-|                    | NOR              | 3,591            | CXRI, ChestX-ray8         |          |
-|                    | CPN              | 4,595            | CXRI, ChestX-ray8         |          |
-| CXR-Multiple-CL3   | NCP              | 4,015            | CCXRI, CIDC, BIMCV        | X-ray    |
-|                    | NOR              | 3,591            | CXRI , ChestX-ray8        |          |
-|                    | CPB              | 2,780            | CXRI                      |          |
-|                    | CPV              | 1,493            | CXRI                      |          |
-| CXR-Multiple-CL4   | NCP              | 4,015            | CXRI, CIDC, BIMCV         | X-ray    |
+| Different studies  | Class categories | Number of Images | Source References with links                                                                                                                                                                                       | Modality |
+|--------------------|------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|                    | NOR              | 5,856            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              |          |
+| CXR-Single-CL2     | NCP              | 500              | [CIDC](https://github.com/ieee8023/covid-chestxray-dataset)                                                                                                                                                        | X-ray    |
+|                    | NOR              | 7,864            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), [ChestX-ray8](https://www.kaggle.com/nih-chest-xrays/data)                                                                                  |          |
+| CXR-Multiple-CL2   | NCP              | 4,015            | [CCXRI](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database), [CIDC](https://github.com/ieee8023/covid-chestxray-dataset), [BIMCV](https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/)             | X-ray    |
+|                    | NOR (Train/Test) |  6,958/1,227     | [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)+[CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)/[ChestX-ray8](https://www.kaggle.com/nih-chest-xrays/data)              |          |
+| CXR-Individual-CL2 | NCP (Train/Test) |  3,515/500       | [CCXRI](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)+[BIMCV]()/[CIDC](https://github.com/ieee8023/covid-chestxray-dataset)                                                                  | X-ray    |
+|                    | NOR              | 1,227            | [SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset)                                                                                                                                               |          |
+| CT-Single-CL2-I    | NCP              | 1,252            | [SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset)                                                                                                                                               | CT       |
+|                    | NOR              | 397              | [MGC](https://github.com/UCSD-AI4H/COVID-CT)                                                                                                                                                                       |          |
+| CT-Single-CL2-II   | NCP              | 349              | [MGC](https://github.com/UCSD-AI4H/COVID-CT)                                                                                                                                                                       | CT       |
+|                    | NOR              | 7,864            | [SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset), [CCII](http://ncov-ai.big.ac.cn/download?lang=en), [MGC](https://github.com/UCSD-AI4H/COVID-CT)                                              |          |
+| CT-Multiple-CL2    | NCP              | 4,015            | [SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset), [CCII](), [MGC](https://github.com/UCSD-AI4H/COVID-CT)                                                                                       | CT       |
+|                    | NOR (Train/Test) | 16,616/1,227     | [MGC](https://github.com/UCSD-AI4H/COVID-CT)+[CCII](http://ncov-ai.big.ac.cn/download?lang=en)+[iCTCF](http://ictcf.biocuckoo.cn/HUST-19.php)/[SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) |          |
+| CT-Individual-CL2  | NCP (Train/Test) | 6,427/1,252      | [MGC](https://github.com/UCSD-AI4H/COVID-CT)+[CCII](http://ncov-ai.big.ac.cn/download?lang=en)+[iCTCF]()/[SCoV](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset)                                      | CT       |
+|                    | NOR              | 1,583            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              |          |
+|                    | CPN              | 4,273            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              |          |
+| CXR-Single-CL3     | NCP              | 500              | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              | X-ray    |
+|                    | NOR              | 3,591            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), [ChestX-ray8](https://www.kaggle.com/nih-chest-xrays/data)                                                                                  |          |
+|                    | CPN              | 4,595            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), [ChestX-ray8](https://www.kaggle.com/nih-chest-xrays/data)                                                                                  |          |
+| CXR-Multiple-CL3   | NCP              | 4,015            | [CCXRI](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database), [CIDC](https://github.com/ieee8023/covid-chestxray-dataset), [BIMCV](https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/)             | X-ray    |
+|                    | NOR              | 3,591            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) , [ChestX-ray8](https://www.kaggle.com/nih-chest-xrays/data)                                                                                 |          |
+|                    | CPB              | 2,780            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              |          |
+|                    | CPV              | 1,493            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)                                                                                                                                              |          |
+| CXR-Multiple-CL4   | NCP              | 4,015            | [CXRI](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), [CIDC](https://github.com/ieee8023/covid-chestxray-dataset), [BIMCV](https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/)                   | X-ray    |
 
 
 
