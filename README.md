@@ -64,7 +64,7 @@ Khulna-9203, Bangladesh <br>
 E-mail: kamruleeekuet@gmail.com or m.k.hasan@eee.kuet.ac.bd<br>
 G.Scholar: https://scholar.google.com/citations?user=36WXELIAAAAJ&hl=en
 
-and <br>
+
 
 **Md. Ashraful Alam**  <br>
 Undergraduate student <br>
