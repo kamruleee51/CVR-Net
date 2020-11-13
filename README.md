@@ -34,7 +34,7 @@ As COVID is a new pandemic, a huge number of positive coronavirus images are not
 
 
 The more details of the proposed framework can be found here: <br>
-https://arxiv.org/abs/2007.11993
+https://www.medrxiv.org/content/10.1101/2020.11.07.20227504v1
 
 
 All the results reported in the literature were produced using the following version Python and Python API:
