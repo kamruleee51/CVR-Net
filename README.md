@@ -33,6 +33,7 @@ As COVID is a new pandemic, a huge number of positive coronavirus images are not
 |            |                      | CVP             | 4,015        | [CCXRI](https://www.sirm.org/category/senza-categoria/covid-19/),[CIDC](https://github.com/ieee8023/covid-chestxray-dataset),[PadChest](https://bimcv.cipf.es/bimcv-projects/padchest/)                   | X-ray    |
 
 
+
 The more details of the proposed framework can be found here: <br>
 https://arxiv.org/abs/2007.11993
 
